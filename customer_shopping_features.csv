@@ -1,0 +1,11 @@
+No.,Name,Type,Description
+1,invoice_no,String,Invoice number. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
+2,customer_id,String,Customer number. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
+3,gender,String,Customer's gender.
+4,age,Positive Integer,Customers' age.
+5,category,String,Category of the purchased product.
+6,quantity,Float,Quantities of each product (item) per transaction.
+7,price,Float,Unit price. Product price per unit in Turkish Liras (TL).
+8,payment_method,String,Payment method used for the transaction (cash/credit card/debit card).
+9,invoice_date,Date,Invoice date. The day when a transaction was generated.
+10,shopping_mall,String,Name of the shopping mall where the transaction was made.
